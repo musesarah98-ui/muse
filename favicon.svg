@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FF6B6B"/>
+      <stop offset="50%"  stop-color="#E8337C"/>
+      <stop offset="100%" stop-color="#9B3DB8"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect width="100" height="100" rx="22" ry="22"/>
+    </clipPath>
+  </defs>
+  <rect width="100" height="100" rx="22" ry="22" fill="url(#grad)"/>
+  <text
+    x="50" y="68"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="700"
+    font-size="46"
+    fill="white"
+    text-anchor="middle"
+    letter-spacing="-1">SM</text>
+</svg>
